@@ -1,0 +1,2392 @@
+[
+    {
+        "Index": 1,
+        "Identifier": "eos6ost",
+        "Slug": "reinvent4-libinvent",
+        "Title": "REINVENT 4 LibInvent",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 2,
+        "Identifier": "eos3cf4",
+        "Slug": "molfeat-chemgpt",
+        "Title": "ChemGPT-4.7",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 3,
+        "Identifier": "eos69p9",
+        "Slug": "ssl-gcn-tox21",
+        "Title": "Toxicity prediction across the Tox21 panel with semi-supervised learning",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 4,
+        "Identifier": "eos8lok",
+        "Slug": "s2dv-hbv",
+        "Title": "Inhibition of Hepatits B virus",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 5,
+        "Identifier": "eos22io",
+        "Slug": "idl-ppbopt",
+        "Title": "Human Plasma Protein Binding (PPB) of Compounds",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 6,
+        "Identifier": "eos2lqb",
+        "Slug": "hob-pre",
+        "Title": "Human oral bioavailability prediction",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 7,
+        "Identifier": "eos2r5a",
+        "Slug": "retrosynthetic-accessibility",
+        "Title": "Retrosynthetic accessibility score",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 8,
+        "Identifier": "eos9f6t",
+        "Slug": "chemprop-sars-cov-inhibition",
+        "Title": "SARS-CoV inhibition",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 9,
+        "Identifier": "eos2thm",
+        "Slug": "molbert",
+        "Title": "MolBERT chemical language transformer",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 10,
+        "Identifier": "eos9ueu",
+        "Slug": "small-world-enamine-real",
+        "Title": "Small World Enamine REAL search",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 11,
+        "Identifier": "eos481p",
+        "Slug": "grover-toxcast",
+        "Title": "ToxCast toxicity panel",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 12,
+        "Identifier": "eos4tcc",
+        "Slug": "bayesherg",
+        "Title": "BayeshERG: hERG channel blockade",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 13,
+        "Identifier": "eos7pw8",
+        "Slug": "syba-synthetic-accessibility",
+        "Title": "Bayesian prediction of synthetic accessibility",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 14,
+        "Identifier": "eos5ecc",
+        "Slug": "iupac2smiles",
+        "Title": "STOUT: SMILES to IUPAC name translator",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 15,
+        "Identifier": "eos39co",
+        "Slug": "unimol-representation",
+        "Title": "Uni-Mol molecular representation",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 16,
+        "Identifier": "eos4e40",
+        "Slug": "chemprop-antibiotic",
+        "Title": "Broad spectrum antibiotic activity",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 17,
+        "Identifier": "eos8bhe",
+        "Slug": "scaffold-morphing",
+        "Title": "Scaffold morphing",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 18,
+        "Identifier": "eos44zp",
+        "Slug": "ncats-cyp450",
+        "Title": "CYP450 metabolism",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 19,
+        "Identifier": "eos24ci",
+        "Slug": "drugtax",
+        "Title": "DrugTax: Drug taxonomy",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 20,
+        "Identifier": "eos1n4b",
+        "Slug": "hdac3-inhibition",
+        "Title": "Identifying HDAC3 inhibitors",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 21,
+        "Identifier": "eos5xng",
+        "Slug": "chemprop-burkholderia",
+        "Title": "Burkholderia cenocepacia inhibition",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 22,
+        "Identifier": "eos6pbf",
+        "Slug": "selfies",
+        "Title": "SELF-referencIng Embedded Strings",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 23,
+        "Identifier": "eos5axz",
+        "Slug": "morgan-counts",
+        "Title": "Morgan counts fingerprints",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 24,
+        "Identifier": "eos6hy3",
+        "Slug": "image-mol-hiv",
+        "Title": "ImageMol HIV growth inhibition",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 25,
+        "Identifier": "eos5qfo",
+        "Slug": "rexgen",
+        "Title": "Organic reaction outcome prediction",
+        "Task": [
+            "Generative"
+        ],
+        "Input Shape": "List",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "Flexible List"
+    },
+    {
+        "Index": 26,
+        "Identifier": "eos31ve",
+        "Slug": "ncats-hlm",
+        "Title": "Human Liver Microsomal Stability",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 27,
+        "Identifier": "eos1amr",
+        "Slug": "grover-bbbp",
+        "Title": "Blood-brain barrier penetration",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 28,
+        "Identifier": "eos3xip",
+        "Slug": "grover-qm8",
+        "Title": "Electronic spectra and excited state energy",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Other value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 29,
+        "Identifier": "eos5guo",
+        "Slug": "erg-fingerprints",
+        "Title": "ErG 2D Descriptors",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 30,
+        "Identifier": "eos39dp",
+        "Slug": "phakinpro",
+        "Title": "Pharmacokinetics Profiler (PhaKinPro)",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 31,
+        "Identifier": "eos57bx",
+        "Slug": "reinvent4-mol2mol-scaffold",
+        "Title": "REINVENT 4 Mol2MolScaffold",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 32,
+        "Identifier": "eos9gg2",
+        "Slug": "chemical-space-projections-drugbank",
+        "Title": "Chemical space 2D projections against DrugBank",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 33,
+        "Identifier": "eos43at",
+        "Slug": "molgrad-herg",
+        "Title": "Coloring molecules for hERG blockade",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 34,
+        "Identifier": "eos9sa2",
+        "Slug": "bayesian-drug-likeness",
+        "Title": "Drug-likeness prediction with Bayesian neural networks",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 35,
+        "Identifier": "eos4f95",
+        "Slug": "mycetos",
+        "Title": "Inhibition of Eumycetoma from MycetOS",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 36,
+        "Identifier": "eos1ut3",
+        "Slug": "molfeat-usrcat",
+        "Title": "USR descriptors with pharmacophoric constraints",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 37,
+        "Identifier": "eos8a5g",
+        "Slug": "molbloom",
+        "Title": "MolBloom: molecule purchasability in ZINC20",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Boolean"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 38,
+        "Identifier": "eos2401",
+        "Slug": "scaffold-decoration",
+        "Title": "Scaffold decoration",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 39,
+        "Identifier": "eos7qga",
+        "Slug": "datamol-smiles2canonical",
+        "Title": "Converter of SMILES in Canonical, Selfie, Inchi, Inchi Key form",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "Matrix"
+    },
+    {
+        "Index": 40,
+        "Identifier": "eos3b5e",
+        "Slug": "molecular-weight",
+        "Title": "Molecular weight",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Other value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 41,
+        "Identifier": "eos2fy6",
+        "Slug": "s2dv-hepg2-toxicity",
+        "Title": "S2DV HepG2 toxicity",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 42,
+        "Identifier": "eos4u6p",
+        "Slug": "cc-signaturizer",
+        "Title": "Chemical Checker signaturizer",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 43,
+        "Identifier": "eos935d",
+        "Slug": "meta-trans",
+        "Title": "MetaTrans: human drug metabolites",
+        "Task": [
+            "Generative"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 44,
+        "Identifier": "eos24ur",
+        "Slug": "whales-scaled",
+        "Title": "WHALES scaled",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 45,
+        "Identifier": "eos3nl8",
+        "Slug": "covid-19-drug-repurposing",
+        "Title": "DRKG_COVID19",
+        "Task": null,
+        "Input Shape": null,
+        "Output": null,
+        "Output Shape": null
+    },
+    {
+        "Index": 46,
+        "Identifier": "eos7d58",
+        "Slug": "admet-ai-prediction",
+        "Title": "ADMET properties prediction",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score",
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 47,
+        "Identifier": "eos8a4x",
+        "Slug": "rdkit-descriptors",
+        "Title": "Physicochemical descriptors available from RDKIT",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 48,
+        "Identifier": "eos8aox",
+        "Slug": "cc-signaturizer-3d",
+        "Title": "Chemical Checker Signaturizer 3D",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 49,
+        "Identifier": "eos4se9",
+        "Slug": "smiles2iupac",
+        "Title": "STOUT: SMILES to IUPAC name translator",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Text"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 50,
+        "Identifier": "eos96ia",
+        "Slug": "molgrad-cyp3a4",
+        "Title": "Coloring molecules for interaction with CYP3A4",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 51,
+        "Identifier": "eos2ta5",
+        "Slug": "cardiotoxnet-herg",
+        "Title": "Ligand-based prediction of hERG blockade",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 52,
+        "Identifier": "eos69mr",
+        "Slug": "reinvent4-linkinvent",
+        "Title": "REINVENT 4 LinkInvent",
+        "Task": null,
+        "Input Shape": null,
+        "Output": null,
+        "Output Shape": null
+    },
+    {
+        "Index": 53,
+        "Identifier": "eos1pu1",
+        "Slug": "cardiotox-dictrank",
+        "Title": "Cardiotoxicity Classifier",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 54,
+        "Identifier": "eos5gge",
+        "Slug": "dili-predictor",
+        "Title": "Early prediction of Drug-Induced Liver Injury",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 55,
+        "Identifier": "eos21q7",
+        "Slug": "inter-dili",
+        "Title": "InterDILI: drug-induced injury prediction",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 56,
+        "Identifier": "eos9tyg",
+        "Slug": "ncats-pampa74",
+        "Title": "Parallel Artificial Membrane Permeability Assay (PAMPA) 7",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 57,
+        "Identifier": "eos5smc",
+        "Slug": "grover-tox21",
+        "Title": "Predicts activity of compounds accross the Tox21 panel",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 58,
+        "Identifier": "eos9yui",
+        "Slug": "natural-product-likeness",
+        "Title": "Natural product likeness score",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 59,
+        "Identifier": "eos3mk2",
+        "Slug": "bbbp-marine-kinase-inhibitors",
+        "Title": "BBBP model tested on marine-derived kinase inhibitors",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 60,
+        "Identifier": "eos2mrz",
+        "Slug": "deepsmiles",
+        "Title": "DeepSMILES, an alternate SMILES representation for deep learning",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 61,
+        "Identifier": "eos9ym3",
+        "Slug": "mrlogp",
+        "Title": "MRlogP: neural network-based logP prediction for druglike small molecules",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 62,
+        "Identifier": "eos7a45",
+        "Slug": "coprinet-molecule-price",
+        "Title": "Small molecule price prediction",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Other value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 63,
+        "Identifier": "eos5jz9",
+        "Slug": "ncats-cyp2c9",
+        "Title": "CYP2C9 metabolism",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 64,
+        "Identifier": "eos2v11",
+        "Slug": "admetlab-2",
+        "Title": "ADMETlab-2",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value",
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 65,
+        "Identifier": "eos92sw",
+        "Slug": "etoxpred",
+        "Title": "Toxicity and synthetic accessibility prediction",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 66,
+        "Identifier": "eos8fth",
+        "Slug": "redial-2020",
+        "Title": "SARS-CoV-2 antiviral prediction: REDIAL-2020",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 67,
+        "Identifier": "eos4zfy",
+        "Slug": "maip-malaria",
+        "Title": "MAIP: antimalarial activity prediction",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 68,
+        "Identifier": "eos6oli",
+        "Slug": "soltrannet-aqueous-solubility",
+        "Title": "Aqueous solubility prediction",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 69,
+        "Identifier": "eos2lm8",
+        "Slug": "smiles-transformer",
+        "Title": "SMILES transformer descriptor",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 70,
+        "Identifier": "eos85a3",
+        "Slug": "grover-lipo",
+        "Title": "Octanol/water distribution coefficient",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 71,
+        "Identifier": "eos6ao8",
+        "Slug": "molgrad-ppb",
+        "Title": "Coloring molecules for plasma protein binding prediction",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 72,
+        "Identifier": "eos2gth",
+        "Slug": "maip-malaria-surrogate",
+        "Title": "MAIP distillation: antimalarial potential prediction",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 73,
+        "Identifier": "eos4wt0",
+        "Slug": "morgan-binary-fps",
+        "Title": "Morgan fingerprints in binary form (radius 3, 2048 dimensions)",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 74,
+        "Identifier": "eos9c7k",
+        "Slug": "medchem17-similarity",
+        "Title": "Similarity search in ChEMBL, DrugBank and UNPD",
+        "Task": [
+            "Similarity"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 75,
+        "Identifier": "eos8d8a",
+        "Slug": "mycpermcheck",
+        "Title": "Membrane permeability in Mycobacterium tuberculosis",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 76,
+        "Identifier": "eos3le9",
+        "Slug": "hepg2-mmv",
+        "Title": "HepG2 Toxicity - MMV",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 77,
+        "Identifier": "eos7nno",
+        "Slug": "ncats-cyp2d6",
+        "Title": "CYP2D6 metabolism",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 78,
+        "Identifier": "eos4b8j",
+        "Slug": "gdbchembl-similarity",
+        "Title": "GDBChEMBL similarity search",
+        "Task": [
+            "Similarity"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 79,
+        "Identifier": "eos7asg",
+        "Slug": "padel",
+        "Title": "PADEL small molecule descriptors",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 80,
+        "Identifier": "eos30gr",
+        "Slug": "deepherg",
+        "Title": "Classification of hERG blockers and nonblockers",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 81,
+        "Identifier": "eos4x30",
+        "Slug": "pmapper-3d",
+        "Title": "3D pharmacophore descriptor",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 82,
+        "Identifier": "eos6aun",
+        "Slug": "rxn-fingerprint",
+        "Title": "RXNFP - chemical reaction fingerprints",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "Matrix"
+    },
+    {
+        "Index": 83,
+        "Identifier": "eos3wzy",
+        "Slug": "qupkake",
+        "Title": "Predict micro-pKa of organic molecules",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 84,
+        "Identifier": "eos2re5",
+        "Slug": "admetlab",
+        "Title": "ADMETlab models for evaluation of drug candidates",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 85,
+        "Identifier": "eos2hzy",
+        "Slug": "pubchem-sampler",
+        "Title": "PubChem Molecular Sampler",
+        "Task": [
+            "Similarity"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 86,
+        "Identifier": "eos2l0q",
+        "Slug": "schisto-swisstph",
+        "Title": "Anti-schistosomiasis activity",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 87,
+        "Identifier": "eos9zw0",
+        "Slug": "molpmofit",
+        "Title": "Molecular Prediction Model Fine-Tuning (MolPMoFiT) encodings",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 88,
+        "Identifier": "eos81ew",
+        "Slug": "ncats-pampa5",
+        "Title": "Parallel Artificial Membrane Permeability Assay 5",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 89,
+        "Identifier": "eos7e3s",
+        "Slug": "dili-pred",
+        "Title": "Drug-induced liver injury prediction",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 90,
+        "Identifier": "eos4avb",
+        "Slug": "image-mol-embeddings",
+        "Title": "Molecular representation learning",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "Matrix"
+    },
+    {
+        "Index": 91,
+        "Identifier": "eos7jio",
+        "Slug": "rdkit-fingerprint",
+        "Title": "Path-based fingerprint",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 92,
+        "Identifier": "eos65rt",
+        "Slug": "deepfl-logp",
+        "Title": "Membrane permeability of fluorescent probes",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 93,
+        "Identifier": "eos69e6",
+        "Slug": "pgmg-pharmacophore",
+        "Title": "Pharmacophore-guided molecular generation",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 94,
+        "Identifier": "eos7jlv",
+        "Slug": "gdbmedchem-similarity",
+        "Title": "GDBMedChem similarity search",
+        "Task": [
+            "Similarity"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 95,
+        "Identifier": "eos30f3",
+        "Slug": "dmpnn-herg",
+        "Title": "Prediction of hERG channel blockers with directed message passing neural networks",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 96,
+        "Identifier": "eos80ch",
+        "Slug": "malaria-mam",
+        "Title": "Antimalarial activity for sexual stage and asexual blood stage (ABS)",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 97,
+        "Identifier": "eos4djh",
+        "Slug": "datamol-basic-descriptors",
+        "Title": "Basic molecular descriptors from Datamol",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 98,
+        "Identifier": "eos2hbd",
+        "Slug": "passive-permeability",
+        "Title": "Passive permeability based on simulations",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 99,
+        "Identifier": "eos59rr",
+        "Slug": "bidd-molmap-fingerprint",
+        "Title": "Molecular fingerprint maps based on broadly learned knowledge-based representations",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Image",
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 100,
+        "Identifier": "eos3ev6",
+        "Slug": "ncats-cyp3a4",
+        "Title": "CYP3A4 metabolism",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 101,
+        "Identifier": "eos238c",
+        "Slug": "mesh-therapeutic-use",
+        "Title": "MeSH therapeutic use based on chemical structure",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 102,
+        "Identifier": "eos2rd8",
+        "Slug": "molt5-smiles-to-caption",
+        "Title": "MolT5-Translation between Molecules and Natural Language",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Text"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 103,
+        "Identifier": "eos9p4a",
+        "Slug": "deep-dl",
+        "Title": "Drug-likeness scoring based on unsupervised learning",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 104,
+        "Identifier": "eos7kpb",
+        "Slug": "h3d-virtual-screening-cascade-light",
+        "Title": "H3D virtual screening cascade light",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 105,
+        "Identifier": "eos2a9n",
+        "Slug": "chembl-similarity",
+        "Title": "Similarity search in ChEMBL",
+        "Task": [
+            "Similarity"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 106,
+        "Identifier": "eos93h2",
+        "Slug": "image-mol-gpcr",
+        "Title": "imagemol-gpcr",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 107,
+        "Identifier": "eos9ivc",
+        "Slug": "antitb-seattle",
+        "Title": "Antituberculosis activity prediction",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 108,
+        "Identifier": "eos9aqt",
+        "Slug": "delfta-qm",
+        "Title": "DelFTa quantum mechanical properties prediction",
+        "Task": null,
+        "Input Shape": null,
+        "Output": null,
+        "Output Shape": null
+    },
+    {
+        "Index": 109,
+        "Identifier": "eos9ei3",
+        "Slug": "sa-score",
+        "Title": "Synthetic accessibility score",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 110,
+        "Identifier": "eos1vms",
+        "Slug": "chembl-multitask-descriptor",
+        "Title": "Multi-target prediction based on ChEMBL data",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 111,
+        "Identifier": "eos8ioa",
+        "Slug": "natural-product-score",
+        "Title": "Natural product score",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 112,
+        "Identifier": "eos8c0o",
+        "Slug": "image-mol-bace",
+        "Title": "ImageMol human beta-secretase-1 (BACE-1) inhibition",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 113,
+        "Identifier": "eos4rta",
+        "Slug": "malaria-mmv",
+        "Title": "Antimalarial activity (MMV)",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 114,
+        "Identifier": "eos6o0z",
+        "Slug": "grover-qm7",
+        "Title": "Atomization energy of small molecules",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Other value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 115,
+        "Identifier": "eos18ie",
+        "Slug": "antibiotics-ai-saureus",
+        "Title": "Antibiotic activity prediction against Staphylococcus aureus",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 116,
+        "Identifier": "eos2db3",
+        "Slug": "chemical-space-projections-chemdiv",
+        "Title": "Chemical space 2D projections against ChemDiv",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 117,
+        "Identifier": "eos1af5",
+        "Slug": "molgrad-caco2",
+        "Title": "Coloring molecules for Caco-2 cell permeability",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 118,
+        "Identifier": "eos3ae7",
+        "Slug": "chemical-vae",
+        "Title": "Variational autoencoder for small molecule generation",
+        "Task": [
+            "Generative"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 119,
+        "Identifier": "eos1086",
+        "Slug": "embeddings-extraction",
+        "Title": "Text Embeddings Extraction using Pretrained Lamguage Models",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "List",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 120,
+        "Identifier": "eos77w8",
+        "Slug": "grover-sider",
+        "Title": "Adverse Drug Reactions",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 121,
+        "Identifier": "eos6m4j",
+        "Slug": "bidd-molmap-desc",
+        "Title": "Molecular maps based on broadly learned knowledge-based representations",
+        "Task": [
+            "Generative"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Image",
+            "Descriptor"
+        ],
+        "Output Shape": "Matrix"
+    },
+    {
+        "Index": 122,
+        "Identifier": "eos1noy",
+        "Slug": "chembl-sampler",
+        "Title": "ChEMBL Molecular Sampler",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 123,
+        "Identifier": "eos78ao",
+        "Slug": "mordred",
+        "Title": "Mordred chemical descriptors",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 124,
+        "Identifier": "eos3zur",
+        "Slug": "molfeat-estate",
+        "Title": "Estate Molecular Descriptors",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 125,
+        "Identifier": "eos6fza",
+        "Slug": "grover-clintox",
+        "Title": "Toxicity at clinical trial stage",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 126,
+        "Identifier": "eos6ru3",
+        "Slug": "whales-qmug",
+        "Title": "WHALES similarity search on 600k molecules from Q-Mug",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 127,
+        "Identifier": "eos1mxi",
+        "Slug": "smiles-pe",
+        "Title": "SmilesPE: tokenizer algorithm for SMILES, DeepSMILES, and SELFIES",
+        "Task": [
+            "Generative"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "Flexible List"
+    },
+    {
+        "Index": 128,
+        "Identifier": "eos9uqy",
+        "Slug": "cheese-sampler",
+        "Title": "CHEESE similarity search with multiple similarity measures and against various databases",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 129,
+        "Identifier": "eos74bo",
+        "Slug": "ncats-solubility",
+        "Title": "Aqueous Kinetic Solubility",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 130,
+        "Identifier": "eos1d7r",
+        "Slug": "small-world-zinc",
+        "Title": "Small World Zinc search",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 131,
+        "Identifier": "eos4q1a",
+        "Slug": "crem-structure-generation",
+        "Title": "CReM fragment based structure generation",
+        "Task": [
+            "Generative"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 132,
+        "Identifier": "eos2gw4",
+        "Slug": "ersilia-compound-embedding",
+        "Title": "Ersilia Compound Embeddings",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 133,
+        "Identifier": "eos7yti",
+        "Slug": "osm-series4",
+        "Title": "Antimalarial activity from OSM",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 134,
+        "Identifier": "eos8aa5",
+        "Slug": "kgpgt-embedding",
+        "Title": "Knowledge-guided pre-trained graph transformer",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 135,
+        "Identifier": "eos2zmb",
+        "Slug": "hdac1-inhibition",
+        "Title": "Inhibition of HDAC1",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 136,
+        "Identifier": "eos24jm",
+        "Slug": "qcrb-tb",
+        "Title": "QcrB Inhibition (M. tuberculosis)",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Other value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 137,
+        "Identifier": "eos5505",
+        "Slug": "ncats-rlm",
+        "Title": "Rat liver microsomal stability",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 138,
+        "Identifier": "eos694w",
+        "Slug": "reinvent4-mol2mol-medium-similarity",
+        "Title": "REINVENT 4 Mol2MolMediumSimilarity",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 139,
+        "Identifier": "eos3804",
+        "Slug": "chemprop-abaumannii",
+        "Title": "Inhibition of Acinetobacter baumannii growth",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 140,
+        "Identifier": "eos42ez",
+        "Slug": "antibiotics-ai-cytotox",
+        "Title": "Human cytotoxicity endpoints",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 141,
+        "Identifier": "eos8451",
+        "Slug": "grover-esol",
+        "Title": "Water solubility",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 142,
+        "Identifier": "eos633t",
+        "Slug": "moler-enamine-blocks",
+        "Title": "Extending molecular scaffolds with building blocks",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 143,
+        "Identifier": "eos1579",
+        "Slug": "metabokiller",
+        "Title": "Carcinogenic potential of metabolites and small molecules",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 144,
+        "Identifier": "eos8h6g",
+        "Slug": "avalon",
+        "Title": "Avalon fingerprint",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 145,
+        "Identifier": "eos3nn9",
+        "Slug": "mpro-covid19",
+        "Title": "Predict bioactivity against Main Protease of SARS-CoV-2",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 146,
+        "Identifier": "eos7a04",
+        "Slug": "cdd-descriptor",
+        "Title": "Continuous and data-driven descriptors",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 147,
+        "Identifier": "eos8vud",
+        "Slug": "squid",
+        "Title": "SQUID 3D shape generation",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 148,
+        "Identifier": "eos6tg8",
+        "Slug": "natural-product-fingerprint",
+        "Title": "Natural product fingerprint",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 149,
+        "Identifier": "eos3kcw",
+        "Slug": "small-world-wuxi",
+        "Title": "Small World Wuxi search",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 150,
+        "Identifier": "eos74km",
+        "Slug": "antimicrobial-kg-ml",
+        "Title": "Antimicrobial class specificity prediction",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 151,
+        "Identifier": "eos3ae6",
+        "Slug": "whales-descriptor",
+        "Title": "Holistic molecular descriptors for scaffold hopping",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 152,
+        "Identifier": "eos5cl7",
+        "Slug": "ngonorrhoeae-inhibition",
+        "Title": "Growth Inhibitors of Neisseria gonorrhoeae",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 153,
+        "Identifier": "eos2mhp",
+        "Slug": "grover-bace",
+        "Title": "BACE-1 inhibition",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 154,
+        "Identifier": "eos46ev",
+        "Slug": "chemtb",
+        "Title": "Mycobacterium tuberculosis inhibitor prediction",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 155,
+        "Identifier": "eos9taz",
+        "Slug": "moler-enamine-fragments",
+        "Title": "Extending molecular scaffolds with fragments",
+        "Task": [
+            "Generative"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 156,
+        "Identifier": "eos526j",
+        "Slug": "aizynthfinder",
+        "Title": "Retrosynthesis planning",
+        "Task": [
+            "Generative"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Flexible List"
+    },
+    {
+        "Index": 157,
+        "Identifier": "eos4f8y",
+        "Slug": "one-molecule-mollib",
+        "Title": "One-molecule MolLib",
+        "Task": [
+            "Sampling"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 158,
+        "Identifier": "eos8ub5",
+        "Slug": "chemical-space-projections-coconut",
+        "Title": "Projections against Coconut",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Value"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 159,
+        "Identifier": "eos9yy1",
+        "Slug": "ncats-hlcs",
+        "Title": "Human Liver Cytosolic Stability",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Probability"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 160,
+        "Identifier": "eos9be7",
+        "Slug": "chemnet-distance",
+        "Title": "FCD: Fr\u00e9chet ChemNet Distance to evaluate generative models",
+        "Task": [
+            "Similarity"
+        ],
+        "Input Shape": "Pair of Lists",
+        "Output": [
+            "Distance"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 161,
+        "Identifier": "eos8fma",
+        "Slug": "stoned-sampler",
+        "Title": "Stoned Sampler",
+        "Task": [
+            "Generative"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 162,
+        "Identifier": "eos97yu",
+        "Slug": "pampa-permeability",
+        "Title": "PAMPA effective permeability",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 163,
+        "Identifier": "eos7w6n",
+        "Slug": "grover-embedding",
+        "Title": "Large-scale graph transformer",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 164,
+        "Identifier": "eos2fg2",
+        "Slug": "opt-admet",
+        "Title": "ADMET Properties Optimization",
+        "Task": null,
+        "Input Shape": null,
+        "Output": null,
+        "Output Shape": null
+    },
+    {
+        "Index": 165,
+        "Identifier": "eos157v",
+        "Slug": "grover-freesolv",
+        "Title": "Hydration free energy of small molecules in water",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Other value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 166,
+        "Identifier": "eos4qda",
+        "Slug": "fasmifra",
+        "Title": "FasmiFra molecule generator",
+        "Task": [
+            "Generative"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Compound"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 167,
+        "Identifier": "eos3dq3",
+        "Slug": "mole-embeddings",
+        "Title": "MolE molecular embeddings",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": null,
+        "Output Shape": null
+    },
+    {
+        "Index": 168,
+        "Identifier": "eos35g4",
+        "Slug": "drug-metabolites",
+        "Title": "Drug metabolites prediction",
+        "Task": null,
+        "Input Shape": null,
+        "Output": null,
+        "Output Shape": null
+    },
+    {
+        "Index": 169,
+        "Identifier": "eos2b6f",
+        "Slug": "pkasolver",
+        "Title": "Microstate pKa values",
+        "Task": [
+            "Regression"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Experimental value"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 170,
+        "Identifier": "eos4cxk",
+        "Slug": "sars-cov-2-antiviral-screen",
+        "Title": "SARS-CoV-2 Anti viral screening",
+        "Task": [
+            "Classification"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Boolean"
+        ],
+        "Output Shape": "List"
+    },
+    {
+        "Index": 171,
+        "Identifier": "eos3ujl",
+        "Slug": "mtb-permeability",
+        "Title": "Mtb cell wall permeability",
+        "Task": [
+            "Annotation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Score"
+        ],
+        "Output Shape": "Single"
+    },
+    {
+        "Index": 172,
+        "Identifier": "eos1xje",
+        "Slug": "biogpt-embeddings",
+        "Title": "BioGPT embeddings",
+        "Task": [
+            "Representation"
+        ],
+        "Input Shape": "Single",
+        "Output": [
+            "Descriptor"
+        ],
+        "Output Shape": "List"
+    }
+]
