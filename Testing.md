@@ -62,22 +62,20 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 ```
 
-- From the image pulling logs we can see the first line image isn't found locally as excpected so docker will instead pull the latest tab from the hub then the pulling starts layer by layer our `ersiliaos/eos4e40 ` image has 10 layers. `Status: Downloaded....` shows the image is pulled **successfully**.
+- From the image pulling logs, we can see the first line image isn't found locally as expected so docker will instead pull the latest tab from the hub, the pulling starts layer by layer our `ersiliaos/eos4e40 ` image has 10 layers. `Status: Downloaded....` shows the image has been pulled **successfully**.
 
 - `--port 80` shows that docker container is running the web service only on a port 80 server meaning it's inside the container and not mapped to my windows machine so pasting `http://localhost` into my browser won't work.
-to test the service works or not type `curl http://localhost` to see the respose.
-
-now I get :
-
+To test whether the service works or not, type `curl http://localhost` to see the respose.
+Now I get :
 ```bash
 $ curl http://localhost
 curl: (7) Failed to connect to localhost port 80 after 4 ms: Connection refused
 ```
-To fix that I ask docker to map a port on my Windows machine by running the container this way:
+To fix that, I ask docker to map a port on my Windows machine by running the container this way:
 ```bash
  docker run -p 80:80 ersiliaos/eos4e40
 ```
-this way the service works through the browser and we can get a response through the terminal.
+This way the service works through the browser, and we can get a response through the terminal.
 
 ```bash
 $ curl http://localhost
@@ -86,18 +84,18 @@ $ curl http://localhost
 
 Another challenge we face after running Ersilia models as containers is that we want to execute model commands inside the running container!
 
-This is caused by that line in docker-entrypoint.sh script that runs when the container starts
+This is caused by the follwing line in the `docker-entrypoint.sh` script that runs when the container starts:
 ```sh
 nginx -g 'daemon off;'
 ```
-as it keeps Nginx running in the foreground instead of detaching as a background process.
+as it keeps Nginx running in the foreground instead of detaching it as a background process.
 
-to solve that we can either:
+To solve it we can either:
 - Add the `-d` flag to run the container in the background.
 - for an interactive shell inside the container `docker run -it --entrypoint /bin/bash ersiliaos/eos4wt0` ( I prefer that)
 
-Note: the `-it` flag basically stands for interactive terminal.
-After that we can explore the model like its python version
+Note: the `-it` flag stands for interactive terminal.
+Now, we can explore the container properties like the python version the model was writtin with and so many ....
 ```bash
 root@e4e65ea2f401:~# python -V
 Python 3.7.17
@@ -108,21 +106,15 @@ or running ```bash docker image inspect 311c``` for more detailed metadata about
 
 # 2- Testing Ersilia
 
-Model Types in the Ersilia:
+#### This step verifies that the Ersilia package is installed✔️ by running a test script.  
 
-- Pre-trained Literature Models, developed externally with pre-trained parameters.
-- Re-trained Models: where Ersilia re-trains models lacking pre-trained parameters.
-- In-house Developed Models, created using public datasets for infectious and neglected diseases.
-- Collaboratively Developed Models: built with experimental scientists for specific research needs.
-
-#### This step verifies that the Ersilia package is installed by running a test script.  
-
-```bash  
-python test_ersilia.py  
+```bash
+python test_ersilia.py
 {'install_status_file': '/home/omar/eos/.install.status', 'status': 'installed'}  
 ```  
 
-Code inside test_ersilia.py that generates the output:
+Code in [`test_ersilia.py`](https://github.com/OmarAI2003/Ersilia-utilities/blob/main/test_installation.py) that generates the output:
+
 ```python  
 import ersilia  
 
@@ -131,7 +123,7 @@ print(result)
 ```
 ___
 
-I started to explore different Ersilia models in the hub I used `ersilia catalog --hub` to see the models there. It returned exactly 172 models in the form of a table by default:
+To explore different Ersilia models in the hub I used `ersilia catalog --hub` to see the models there. It returned exactly 172 models in the form of a table by default:
 
 ```bash
 ┌───────┬────────────┬─────────────────────────────────────┐
@@ -148,12 +140,12 @@ I started to explore different Ersilia models in the hub I used `ersilia catalog
 └───────┴────────────┴─────────────────────────────────────┘
 ```
 
-There wasn't enough of information about models, so I added `--more` flag to fetch additional columns like input/output shape and task type. I also used the `--as-json` like this `ersilia catalog --hub --more --as-json > models_catalog.json`
-to save the metadata in a `models_catalog.json` file for later exploration.
+There wasn't enough information about models, so I added `--more` flag to fetch additional columns like input/output shape and task type. I also used the `--as-json` like this `ersilia catalog --hub --more --as-json > models_catalog.json`
+to save the metadata in a [`models_catalog.json` file](https://github.com/OmarAI2003/Ersilia-utilities/blob/main/models_catalog.json) for later exploration.
 
-Unfortunately, The catalog command doesn't show model sizes. I could't find a command or a way to check hub model sizes.To get around this I used the `ersilia test <model>`, which requires installing `ersilia[test]` and the model has to be installed locally.
+Unfortunately, the catalog command doesn't show model sizes. I couldn't find a command or a way to check hub model sizes. To get around this, I used the `ersilia test <model>`, which requires installing `ersilia[test]`, and the model has to be installed locally.
 
-So running `ersilia test eos4wt0` will start eos4wt0 testing and at the end we can spot this `Model Size` table:
+So running `ersilia test eos4wt0` will start `eos4wt0` testing, and at the end, we can spot this `Model Size` table:
 
 ```bash
              Model Directory Sizes
@@ -164,15 +156,21 @@ So running `ersilia test eos4wt0` will start eos4wt0 testing and at the end we c
 └────────────────────────────────┴────────────┘
 ```
 
-Lastly, @gemma, I suggest adding an option the `catalog` command  that provides the size of models. Would definitely benefit users who are selecting models based on their size.
+@GemmaTuron Lastly, I suggest  adding an option to the `catalog` command  that provides model sizes. It would definitely benefit users who are selecting models based on their size.
 _______________________________________________________
 
+Ersilia has a different model Types:
+
+- Pre-trained Literature Models, developed externally with pre-trained parameters.
+- Re-trained Models: where Ersilia re-trains models lacking pre-trained parameters.
+- In-house Developed Models, created using public datasets for infectious and neglected diseases.
+- Collaboratively Developed Models: built with experimental scientists for specific research needs.
+- 
 I will use the antibiotic potential predictor `eos4e40` model as an example to explore a random Ersilia model.
+Oversimplifiedly, `eos4e40` tests the acceptability of a small molecule to be as an antibiotic through its effect on the famous escherichia coli bacteria in other words will the molecule kill or even inhibit E.coli growth? (Model outputs a single value: probability)
 
-Oversimplifiedly, `eos4e40` tests the acceptability of a small molecule to be as an antibiotic through its effect on the famous escherichia coli bacteria in other words will the molecule kill or even inhibit E.coli growth?
 
-
-To explore an Ersilia model I try these three commands:
+To explore an Ersilia model, I try these three commands:
 
 1) `ersilia info` (requires a served model)
 - ```bash   
@@ -209,7 +207,7 @@ To explore an Ersilia model I try these three commands:
     For more information, please visit https://ersilia.io/model-hub
   ```
 
-2) `ersilia catalog --card  <model_identifier>` (requires the model to be installed locally)
+2) `ersilia catalog --card  <model_identifier>` (requires the model to be installed already)
 - ```bash
     $ ersilia catalog --card eos4e40
     {
@@ -265,16 +263,16 @@ To explore an Ersilia model I try these three commands:
 
 1) `ersilia example <model_identifier>` (requires a served model)
 
-generates sample input examples for your model
+Generates sample input examples for your model
 - ```bash
    ersilia example eos4e40 --n_samples 5 --simple -f eos4e40_5_simple_examples.json
     ```
 
-`example` Will generate to us 5 samples of to test the model those samples by default are printed to the terminal and i can also save them to a file via the flag `-f`. Leaving the file extension unspecified in the -f flag saves the result as a txt file by default. Accepted formats are .csv, .tsv and .json but, I set it to JSON.
+`example` Will generate 5 samples to test the model. By default, they are printed to the terminal, but I can also save them to a file via the flag `-f`. Leaving the file extension unspecified in the `-f` flag saves the result as a txt file by default. Accepted formats are .csv, .tsv, and .json, but I set it to JSON.
 
 I then used the samples generated by the `example` command to test the model by running `$ ersilia run --input eos4e40_5_simple_examples.json`
  
-but I got this error:
+but I got this **error**:
 
 ```bash
 Traceback (most recent call last):
@@ -325,7 +323,7 @@ I experimented with modifying the structure of the JSON file by adding a `key` f
 ]
 ```
 
-Running the model again using this file structure with the command `ersilia run --input eos4e40_5_simple_examples.json --as_table` worked successfully and produced this expected output:
+Rerunning the model with that new file structure: `ersilia run --input eos4e40_5_simple_examples.json --as_table` worked successfully✔️ and produced this expected output:
 
 ```bash
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -346,15 +344,15 @@ Running the model again using this file structure with the command `ersilia run 
 Would it make sense @GemmaTuron to either adjust the model to accept the existing output of the example command or modify the example generation process to produce a compatible format? Additionally, clarifying the expected input format in the documentation could help avoid confusion.
 
 -------------
-`models_catalog.json` Insights:
+[`models_catalog.json` file](https://github.com/OmarAI2003/Ersilia-utilities/blob/main/models_catalog.json) Insights:
 
 Compound: A chemical structure or molecule.
 
-Descriptor: computed features or fingerprints that describe molecular properties.
+Descriptor: Computed features or fingerprints that describe molecular properties.
 
 Probability: A prob typically used in classification tasks.
 
-Experimental value: Prediction to Mimic experimental Measurements where lab data isn't available to allow researchers to use them as proxies for actual experimental values
+Experimental value: Prediction to mimic experimental Measurements where lab data isn't available to allow researchers to use them as proxies for actual experimental values
 
 Score: Chemical metric scores which can indicate things like toxicity and so on...
 
